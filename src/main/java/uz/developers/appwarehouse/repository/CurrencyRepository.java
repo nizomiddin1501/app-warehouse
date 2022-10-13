@@ -7,8 +7,6 @@ public interface CurrencyRepository extends JpaRepository<Currency,Integer> {
 
     boolean existsByName(String name);
 
-    boolean existsByPhoneNumberAndIdNot(String phoneNumber, Integer id);
-
     boolean existsByNameAndIdNot(String name, Integer id);
 
 

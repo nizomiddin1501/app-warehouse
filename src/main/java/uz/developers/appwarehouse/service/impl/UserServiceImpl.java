@@ -34,9 +34,16 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Result addUser(UserDto userDto) {
+        User savedUser = new User();
         return null;
     }
 
+//    private String firstName;
+//    private String lastName;
+//    private String phoneNumber;
+//    private String code;
+//    private String password;
+//    private Integer warehouseId;
     @Override
     public Result editUser(Integer id, UserDto userDto) {
         return null;
