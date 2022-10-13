@@ -35,6 +35,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public Result addUser(UserDto userDto) {
         User savedUser = new User();
+        //todo userDto dan keladigan warehouseId listini generatsiya qilish kerak
+        //todo put da ham
         return null;
     }
 
