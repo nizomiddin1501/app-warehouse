@@ -17,7 +17,7 @@ public class AttachmentController {
 
     @GetMapping("/{id}")
     public Result getFileFromDB(@PathVariable Integer id, HttpServletResponse response) throws IOException {
-      return   attachmentService.getFile(id,response);
+      return attachmentService.getFile(id,response);
     }
 
     @PostMapping("/upload")
